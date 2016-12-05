@@ -1,0 +1,1 @@
+time some_command 2>&1 | tee out.log # time and execute command some_command, redirecting all output (error stream and standard output) to out.log and mirror current contents of out.log on the console
